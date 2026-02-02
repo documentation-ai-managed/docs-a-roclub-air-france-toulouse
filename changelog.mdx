@@ -1,0 +1,121 @@
+---
+title: Changelog
+description: Track the latest updates, improvements, and changes to the Aéroclub Air France - Toulouse documentation space.
+---
+
+## Recent Updates
+
+<Callout kind="info" title="Stay Informed">
+Subscribe to our RSS feed or join the Aéroclub Air France - Toulouse newsletter to get notified about new releases and important changes. Check this changelog regularly for details on features, fixes, and migration steps.
+</Callout>
+
+View the most recent changes below. Releases follow semantic versioning (`vMAJOR.MINOR.PATCH`).
+
+<Columns cols={3}>
+  <Card title="Latest" icon="zap" href="#v120">
+    v1.2.0 - New flight booking features
+  </Card>
+  <Card title="Previous" icon="package" href="#v110">
+    v1.1.0 - Member portal enhancements
+  </Card>
+  <Card title="Initial" icon="rocket" href="#v100">
+    v1.0.0 - Core documentation launch
+  </Card>
+</Columns>
+
+<Update label="2024-10-15" description="v1.2.0" tags={["feature", "improvement"]}>
+
+## New Features
+
+- Added flight scheduling integration with real-time availability checks
+- Introduced member profile customization options in the dashboard
+- New API endpoints for aircraft maintenance logs at `https://api.example.com/v1/maintenance`
+
+## Improvements
+
+- Enhanced search functionality across all documentation sections
+- Optimized mobile responsiveness for booking forms
+
+## Bug Fixes
+
+- Fixed navigation issues in the sidebar menu
+- Resolved authentication token refresh errors during long sessions
+
+</Update>
+
+<Update label="2024-09-20" description="v1.1.0" tags={["feature", "bugfix"]}>
+
+## New Features
+
+- Launched interactive aircraft reservation calendar
+- Added webhook support for booking confirmations at `https://your-webhook-url.com/webhook`
+
+## Bug Fixes
+
+- Corrected date picker validation in flight booking forms
+- Patched cross-browser compatibility issues in the member dashboard
+
+## Improvements
+
+- Faster page load times by 40% through asset optimization
+
+</Update>
+
+<Update label="2024-08-10" description="v1.0.0" tags={["breaking", "feature"]}>
+
+## New Features
+
+- Initial release of the Aéroclub Air France - Toulouse documentation space
+- Core sections: Quickstart, Authentication, and Flight Booking guides
+- Integrated search and navigation for all club resources
+
+## Breaking Changes
+
+- Updated API base URL from `https://api.example.com/v0` to `https://api.example.com/v1`
+- Authentication now requires JWT tokens instead of basic auth
+
+## Migration Notes
+
+Follow these steps to update your integrations:
+
+<Steps>
+  <Step title="Update Endpoints" icon="settings">
+    Replace all `v0` paths with `v1` in your API calls.
+  </Step>
+  <Step title="Switch to JWT" icon="lock">
+    Generate JWT tokens using the new auth flow at `https://auth.example.com/token`.
+  </Step>
+  <Step title="Test Integration" icon="play">
+    Run your booking tests against the staging environment.
+  </Step>
+</Steps>
+
+</Update>
+
+## Full Version History
+
+| Version | Date       | Type              | Summary |
+|---------|------------|-------------------|---------|
+| v1.2.0  | 2024-10-15 | Feature, Improvement | Flight scheduling and API expansions |
+| v1.1.0  | 2024-09-20 | Feature, Bugfix   | Reservation calendar and performance |
+| v1.0.0  | 2024-08-10 | Breaking, Feature | Initial documentation launch |
+
+<Expandable title="How to Contribute to the Changelog" default-open="false">
+
+If you spot issues or have suggestions:
+
+1. Fork the repository on GitHub
+2. Create a pull request with your changes
+3. Reference the relevant version in your PR description
+
+<Callout kind="tip">
+Use the `tags` like `feature`, `bugfix`, or `breaking` when submitting updates.
+</Callout>
+
+</Expandable>
+
+## Next Steps
+
+<Callout kind="success" title="Get Started">
+Review the [Quickstart](/quickstart) guide for the latest features, or check [Authentication](/authentication) for secure access updates.
+</Callout>

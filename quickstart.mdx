@@ -1,0 +1,135 @@
+---
+title: Getting Started
+description: Learn how to set up your account and take the first steps in creating and organizing documentation in the space.
+---
+
+## Prerequisites
+
+Before you begin, ensure you have the following:
+
+<Callout kind="info">
+- A modern web browser (Chrome, Firefox, Safari, or Edge)
+- An email address for account verification
+- Optional: Existing documentation files in Markdown or MDX format for import
+</Callout>
+
+## Create Your Account
+
+Follow these steps to sign up for Aéroclub Air France - Toulouse documentation space.
+
+<Steps>
+  <Step title="Visit the signup page" icon="external-link">
+    Navigate to the [documentation dashboard](https://dashboard.example.com/signup).
+  </Step>
+  <Step title="Enter your details" icon="user">
+    Provide your email, name, and a strong password. Agree to the terms of service.
+  </Step>
+  <Step title="Verify your email" icon="mail">
+    Check your inbox for a verification link and click it to activate your account.
+  </Step>
+</Steps>
+
+## Log In to Your Space
+
+Access your documentation workspace using one of these methods.
+
+<Tabs>
+  <Tab title="Web Browser" icon="globe">
+    Go to `https://dashboard.example.com/login` and enter your credentials.
+  </Tab>
+  <Tab title="Magic Link" icon="magic-wand">
+    Enter your email to receive a one-time login link.
+  </Tab>
+</Tabs>
+
+<Callout kind="tip">
+  Enable two-factor authentication in your account settings for added security.
+</Callout>
+
+## Create Your First Documentation Page
+
+Build your first page using the intuitive editor.
+
+<Steps>
+  <Step title="Start a new page" icon="plus">
+    Click the `+ New Page` button in the sidebar.
+  </Step>
+  <Step title="Add frontmatter and content" icon="edit-3">
+    Use the built-in editor to add YAML frontmatter and MDX content. Here's an example:
+  </Step>
+  <Step title="Publish" icon="upload">
+    Save and publish your page to make it live.
+  </Step>
+</Steps>
+
+<CodeGroup tabs="MDX,YAML">
+  ```mdx
+---
+title: My First Page
+description: A sample documentation page.
+---
+
+## Welcome
+
+This is your first MDX page.
+  ```
+  ```yaml
+title: My First Page
+description: A sample documentation page.
+slug: my-first-page
+  ```
+</CodeGroup>
+
+## Basic Navigation and Workspace Setup
+
+The sidebar provides quick access to pages, folders, and settings. Organize your content into folders by dragging pages.
+
+- **Pages**: View and edit individual docs
+- **Folders**: Group related documentation
+- **Settings**: Configure workspace permissions and themes
+
+Customize your workspace:
+
+<Columns cols={2}>
+  <Card title="Themes" icon="palette" href="#themes">
+    Switch between light and dark modes.
+  </Card>
+  <Card title="Permissions" icon="shield" href="#permissions">
+    Invite collaborators and set roles.
+  </Card>
+</Columns>
+
+## Import Existing Content
+
+Bring in your current docs seamlessly.
+
+<Expandable title="Import Methods" default-open="true">
+  Upload Markdown files directly or connect to GitHub repositories. Supported formats include `.md`, `.mdx`, and `.yaml`.
+
+  <Steps>
+    <Step title="File Upload">
+      Drag and drop files into the import panel.
+    </Step>
+    <Step title="GitHub Sync">
+      Authorize access and select repositories to mirror.
+    </Step>
+  </Steps>
+</Expandable>
+
+<Callout kind="success">
+  Your content preserves formatting and structure during import.
+</Callout>
+
+## Next Steps
+
+<Columns cols={3}>
+  <Card title="Authentication" icon="lock" href="/authentication">
+    Set up secure access for your team.
+  </Card>
+  <Card title="Advanced Editing" icon="code" href="/guides">
+    Learn MDX components and custom layouts.
+  </Card>
+  <Card title="Changelog" icon="git-branch" href="/changelog">
+    Stay updated with new features.
+  </Card>
+</Columns>
