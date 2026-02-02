@@ -1,6 +1,6 @@
 {
   "name": "Aéroclub Air France - Toulouse",
-  "initialRoute": "introduction",
+  "initialRoute": "esv",
   "colors": {
     "light": {
       "brand": "#3B82F6"
