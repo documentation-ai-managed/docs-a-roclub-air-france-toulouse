@@ -12,6 +12,10 @@
   "navigation": {
     "pages": [
       {
+        "title": "Manuels",
+        "path": "manuels"
+      },
+      {
         "title": "Espace Sécurité des Vols",
         "path": "esv"
       }
