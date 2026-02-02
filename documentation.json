@@ -10,6 +10,11 @@
     }
   },
   "navigation": {
-    "pages": []
+    "pages": [
+      {
+        "title": "Espace Sécurité des Vols",
+        "path": "esv"
+      }
+    ]
   }
 }
