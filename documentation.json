@@ -20,5 +20,11 @@
         "path": "esv"
       }
     ]
+  },
+  "ai": {
+    "ai-assistant:enabled": false
+  },
+  "seo": {
+    "llms-txt:enabled": false
   }
 }
